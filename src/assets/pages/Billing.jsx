@@ -3,6 +3,10 @@ import "../CSS/Billing.css";
 import { useRental } from "../../Context/RentalContext";
 import { useNavigate } from "react-router-dom";
 
+
+
+
+
 function Billing() {
   const { selectedHouse } = useRental();
   const navigate = useNavigate();
@@ -17,6 +21,15 @@ function Billing() {
       navigate("/");
     }
   }, [selectedHouse, navigate]);
+
+
+
+  //Open the page at the top 
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
 
   if (!selectedHouse) return null;
 
@@ -99,7 +112,10 @@ function Billing() {
 
         <button
           className="checkout-btn"
-          onClick={() => alert("Checkout successful!")}
+          onClick={() => {
+            alert("Checkout successful! To contact the owner dial +92300000000");
+            window.location.href = "/"; // redirects to home page
+          }}
         >
           Checkout
         </button>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { useNavigate } from "react-router-dom";
 import SearchBox from "../components/Searchbox";
 import Housecard from "../components/Housecard";
@@ -14,6 +14,9 @@ function Home() {
     setSelectedHouse(house); // Save house in context
     navigate("/billing"); // Redirect to billing page
   };
+
+
+  
 
   return (
     <div>
@@ -33,5 +36,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
