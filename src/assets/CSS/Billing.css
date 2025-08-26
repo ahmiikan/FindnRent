@@ -1,0 +1,99 @@
+/* Page layout */
+.billing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: -30px;
+}
+
+/* Billing card styling */
+.billing-card {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black for readability */
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  padding: 30px;
+  width: 420px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.billing-card h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* House image inside card */
+
+
+/* Billing details rows */
+.billing-details p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Quantity buttons */
+.quantity-controls button {
+  background: rgba(0, 128, 255, 0.7);
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Coupon input and button */
+.coupon-row .coupon-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.coupon-controls input {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+  font-size: 14px;
+}
+
+.coupon-controls button {
+  background: rgba(0, 128, 255, 0.7);
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Discount highlight */
+.discount {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+/* Checkout button */
+.checkout-btn {
+  background: rgba(0, 128, 255, 0.8);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkout-btn:hover {
+  background: rgba(0, 128, 255, 1);
+}

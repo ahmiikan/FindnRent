@@ -1,0 +1,76 @@
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.search-box {
+  background-color: rgba(38, 56, 63, 0.8); /* Blue with 80% transparency */
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.search-box select {
+  flex-grow: 1;             /* expand equally */
+  flex-basis: 0;            /* force equal space distribution */
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;   /* dropdown background */
+  color: #000;              /* dropdown text */
+  cursor: pointer;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;       /* prevent button text wrapping */
+  flex-shrink: 0;            /* button keeps its natural size */
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #e6c200;
+}
+
+.show-more {
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.more-options {
+  margin-top: 15px;
+}
+
+.more-options select {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
