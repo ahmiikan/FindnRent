@@ -131,15 +131,6 @@ fetch("http://localhost:5000/api/houses")
 ## 🧪 Sample Data
 Seed script populates the database with sample houses to test functionality during development.
 
----
-
-## 🖼️ Screenshots
-
-| Home Page | Filtered Results | Billing Page |
-|------------|----------------|--------------|
-| *[Add your screenshot here]* | *[Add screenshot]* | *[Add screenshot]* |
-
----
 
 ## 📌 Future Enhancements
 - Add user authentication (Login/Register)
