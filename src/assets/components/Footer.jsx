@@ -4,6 +4,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedin,
+  FaGlobe,
 } from "react-icons/fa";
 
 import "../CSS/Footer.css"
@@ -50,6 +51,7 @@ const Footer = () => {
             <a href="https://x.com/ahmad_kan_"><FaTwitter /></a>
             <a href="https://www.instagram.com/ahmad.in.blue/"><FaInstagram /></a>
             <a href="https://www.linkedin.com/in/ahmii-kan/"><FaLinkedin /></a>
+            <a href="https://zorodevv.netlify.app"><FaGlobe/></a>
           </div>
         </div>
       </div>

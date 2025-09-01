@@ -6,7 +6,7 @@ import { useRental } from "../../Context/RentalContext";
 
 function Home() {
   const [filters, setFilters] = useState({});
-  const { setSelectedHouse } = useRental();
+  const { setSelectedHouse } = useRental(); //useRental comes from rentalcontext.jsx
   const navigate = useNavigate();
 
   // Function to handle rent button click
