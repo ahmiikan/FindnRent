@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../CSS/SearchBox.css"
+import "../CSS/Searchbox.css"
 
 const SearchBox = ({ setFilters }) => {
   // city → location mapping
